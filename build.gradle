@@ -22,7 +22,4 @@ dependencies {
     compile('net.sourceforge.nekohtml:nekohtml:1.9.22')
 }
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '2.3'
-}
 
