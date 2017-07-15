@@ -6,7 +6,7 @@ source code for codesanook aritcle
 
 # Run
 ```
-./gradlew clean bootRun
+mvn clean spring-boot:run
 ```
 
 # Test
