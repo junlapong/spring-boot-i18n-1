@@ -24,3 +24,6 @@ mvn clean spring-boot:run
 
 <spring:message code="label.firstName" />
 ```
+
+## Others
+ - http://www.baeldung.com/spring-boot-internationalization
