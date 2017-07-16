@@ -5,22 +5,29 @@
     <title>index</title>
 </head>
 <body>
-<form>
-    <div>
-        <label th:text="#{form.first-name}"></label>
-        <br/>
-        <input type="text" name="firstName">
-    </div>
 
-    <div>
-        <label th:text="#{form.last-name}"></label>
-        <br/>
-        <input type="text" name="lastName">
-    </div>
+<div>
+    <a href="?lang=th">TH</a> | <a href="?lang=en">EN</a>
+</div>
 
-    <div>
-        <input type="submit" value="submit"/>
-    </div>
-</form>
+<div id="container">
+    <form>
+        <div>
+            <label th:text="#{form.first-name}"></label>
+            <br/>
+            <input type="text" name="firstName">
+        </div>
+
+        <div>
+            <label th:text="#{form.last-name}"></label>
+            <br/>
+            <input type="text" name="lastName">
+        </div>
+
+        <div>
+            <input type="submit" value="submit"/>
+        </div>
+    </form>
+</div>
 </body>
 </html>
